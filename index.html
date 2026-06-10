@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ameraha Bint E Ishfaq | AI-Driven SEO Content Manager & Business Strategist</title>
+  <meta name="description" content="Ameraha Bint E Ishfaq — AI-Driven SEO Content Manager & Business Strategist from Lahore, Pakistan. Expert in E-E-A-T, Topical Authority, Semantic SEO, AEO & GEO content strategy since 2019." />
+  <meta name="keywords" content="SEO content writer, AI content strategist, topical authority, E-E-A-T content, AEO writing, GEO optimization, blog writer Pakistan, content manager" />
+  <meta name="author" content="Ameraha Bint E Ishfaq" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ameraha Bint E Ishfaq | AI-Driven SEO Content Manager" />
+  <meta property="og:description" content="Professional SEO content writer and business strategist since 2019. Specializing in E-E-A-T, topical authority, semantic SEO, and full-funnel content systems." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ameraha.github.io" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ─── TOKENS ─── */
+    :root {
+      --ink:       #0D0F14;
+      --ink-soft:  #3D4150;
+      --ink-mute:  #8A8FA3;
+      --canvas:    #F7F8FC;
+      --white:     #FFFFFF;
+      --primary:   #1A3A5C;
+      --accent:    #C4962A;
+      --accent-lt: #F5E9CC;
+      --teal:      #1B6B6B;
+      --teal-lt:   #E0F0F0;
+      --border:    #E2E5EE;
+      --shadow-sm: 0 1px 4px rgba(13,15,20,.06);
+      --shadow-md: 0 4px 20px rgba(13,15,20,.09);
+      --shadow-lg: 0 12px 48px rgba(13,15,20,.12);
+      --r:         12px;
+      --r-lg:      20px;
+      --max:       1140px;
+      --font-display: 'Syne', sans-serif;
+      --font-body:    'Inter', sans-serif;
+    }
+
+    /* ─── RESET ─── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      background: var(--canvas);
+      color: var(--ink);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    img { max-width: 100%; display: block; }
+    a { color: inherit; text-decoration: none; }
+    ul { list-style: none; }
+
+    /* ─── UTIL ─── */
+    .container { max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+    .section { padding: 96px 0; }
+    .section-alt { background: var(--white); }
+    .eyebrow {
+      font-family: var(--font-display);
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(28px, 4vw, 42px);
+      font-weight: 700;
+      color: var(--primary);
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+    .section-lead {
+      font-size: 17px;
+      color: var(--ink-soft);
+      max-width: 580px;
+      line-height: 1.7;
+    }
+    .tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: .06em;
+      padding: 4px 10px;
+      border-radius: 20px;
+      background: var(--accent-lt);
+      color: var(--accent);
+      margin: 3px 3px 3px 0;
+    }
+    .tag-teal { background: var(--teal-lt); color: var(--teal); }
+    .tag-blue { background: #E6EFF8; color: var(--primary); }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: var(--font-display);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 13px 26px;
+      border-radius: var(--r);
+      cursor: pointer;
+      border: none;
+      transition: all .2s;
+    }
+    .btn-primary { background: var(--primary); color: var(--white); }
+    .btn-primary:hover { background: #122a45; transform: translateY(-1px); box-shadow: var(--shadow-md); }
+    .btn-outline { background: transparent; color: var(--primary); border: 1.5px solid var(--primary); }
+    .btn-outline:hover { background: var(--primary); color: var(--white); }
+    .btn-accent { background: var(--accent); color: var(--white); }
+    .btn-accent:hover { background: #a87d22; transform: translateY(-1px); box-shadow: var(--shadow-md); }
+
+    /* ─── NAV ─── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: rgba(247,248,252,.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      transition: box-shadow .3s;
+    }
+    nav.scrolled { box-shadow: var(--shadow-md); }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 68px;
+    }
+    .nav-logo {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--primary);
+      letter-spacing: -.02em;
+    }
+    .nav-logo span { color: var(--accent); }
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+    }
+    .nav-links a {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--ink-soft);
+      transition: color .2s;
+    }
+    .nav-links a:hover { color: var(--primary); }
+    .nav-cta { margin-left: 12px; }
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 4px;
+    }
+    .hamburger span {
+      display: block;
+      width: 22px;
+      height: 2px;
+      background: var(--ink);
+      border-radius: 2px;
+      transition: all .3s;
+    }
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+      gap: 0;
+      background: var(--white);
+      border-top: 1px solid var(--border);
+      padding: 12px 0 20px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      padding: 12px 24px;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--ink-soft);
+      border-bottom: 1px solid var(--border);
+    }
+    .mobile-menu a:last-child { border-bottom: none; }
+
+    /* ─── HERO ─── */
+    #home {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(135deg, #0D1F35 0%, #1A3A5C 55%, #1B5E6B 100%);
+      padding-top: 68px;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(ellipse 60% 50% at 80% 40%, rgba(196,150,42,.12) 0%, transparent 60%),
+        radial-gradient(ellipse 40% 60% at 10% 70%, rgba(27,107,107,.15) 0%, transparent 50%);
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 380px;
+      gap: 60px;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+      padding: 80px 0;
+    }
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: rgba(196,150,42,.12);
+      border: 1px solid rgba(196,150,42,.25);
+      padding: 6px 14px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+    }
+    .hero-eyebrow::before { content: '◆'; font-size: 8px; }
+    .hero-name {
+      font-family: var(--font-display);
+      font-size: clamp(36px, 5.5vw, 64px);
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1.08;
+      letter-spacing: -.03em;
+      margin-bottom: 8px;
+    }
+    .hero-name em {
+      font-style: normal;
+      color: var(--accent);
+    }
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(15px, 2vw, 20px);
+      font-weight: 500;
+      color: rgba(255,255,255,.7);
+      margin-bottom: 24px;
+      letter-spacing: -.01em;
+    }
+    .hero-desc {
+      font-size: 16px;
+      color: rgba(255,255,255,.6);
+      max-width: 520px;
+      line-height: 1.75;
+      margin-bottom: 36px;
+    }
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 40px;
+    }
+    .hero-badge {
+      font-size: 12px;
+      font-weight: 500;
+      color: rgba(255,255,255,.75);
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.14);
+      padding: 5px 12px;
+      border-radius: 20px;
+    }
+    .hero-btns { display: flex; gap: 14px; flex-wrap: wrap; }
+    .hero-card {
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: var(--r-lg);
+      padding: 32px;
+      backdrop-filter: blur(8px);
+    }
+    .hero-card-title {
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--accent);
+      margin-bottom: 24px;
+    }
+    .stat-item { margin-bottom: 22px; }
+    .stat-item:last-child { margin-bottom: 0; }
+    .stat-num {
+      font-family: var(--font-display);
+      font-size: 36px;
+      font-weight: 800;
+      color: var(--white);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 13px;
+      color: rgba(255,255,255,.55);
+      margin-top: 4px;
+    }
+    .stat-divider {
+      height: 1px;
+      background: rgba(255,255,255,.1);
+      margin: 18px 0;
+    }
+    .hero-available {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 24px;
+      font-size: 13px;
+      color: rgba(255,255,255,.6);
+    }
+    .pulse {
+      width: 8px; height: 8px;
+      background: #4CAF82;
+      border-radius: 50%;
+      position: relative;
+    }
+    .pulse::after {
+      content: '';
+      position: absolute;
+      inset: -3px;
+      border-radius: 50%;
+      background: rgba(76,175,130,.3);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0;transform:scale(1.8)} }
+
+    /* ─── ABOUT ─── */
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 72px;
+      align-items: start;
+    }
+    .about-image-wrap {
+      position: relative;
+    }
+    .about-image-placeholder {
+      background: linear-gradient(135deg, var(--primary) 0%, var(--teal) 100%);
+      border-radius: var(--r-lg);
+      aspect-ratio: 4/5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,.5);
+      font-size: 14px;
+      text-align: center;
+      padding: 24px;
+      gap: 12px;
+    }
+    .about-image-placeholder svg { opacity: .4; }
+    .about-image-badge {
+      position: absolute;
+      bottom: -20px;
+      right: -20px;
+      background: var(--accent);
+      color: var(--white);
+      border-radius: var(--r);
+      padding: 16px 20px;
+      box-shadow: var(--shadow-lg);
+    }
+    .about-image-badge strong {
+      display: block;
+      font-family: var(--font-display);
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1;
+    }
+    .about-image-badge span { font-size: 12px; opacity: .85; }
+    .about-body { padding-top: 12px; }
+    .about-bio {
+      font-size: 16px;
+      color: var(--ink-soft);
+      line-height: 1.8;
+      margin-bottom: 28px;
+    }
+    .about-facts { display: flex; flex-direction: column; gap: 12px; margin-bottom: 28px; }
+    .about-fact {
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+    }
+    .fact-icon {
+      width: 38px; height: 38px;
+      border-radius: 10px;
+      background: var(--accent-lt);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 16px;
+    }
+    .fact-text strong { display: block; font-size: 14px; font-weight: 600; color: var(--ink); }
+    .fact-text span { font-size: 13px; color: var(--ink-mute); }
+    .skill-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+
+    /* ─── DOMAINS ─── */
+    .domain-intro { text-align: center; max-width: 640px; margin: 0 auto 56px; }
+    .domain-intro .section-lead { margin: 0 auto; text-align: center; }
+    .domain-filter {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .filter-btn {
+      font-size: 13px;
+      font-weight: 500;
+      padding: 7px 18px;
+      border-radius: 20px;
+      border: 1.5px solid var(--border);
+      background: var(--white);
+      color: var(--ink-soft);
+      cursor: pointer;
+      transition: all .2s;
+    }
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--primary);
+      color: var(--white);
+      border-color: var(--primary);
+    }
+    .domains-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 24px;
+    }
+    .domain-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      padding: 28px;
+      transition: all .25s;
+      position: relative;
+      overflow: hidden;
+    }
+    .domain-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: var(--card-accent, var(--primary));
+      transform: scaleX(0);
+      transition: transform .3s;
+      transform-origin: left;
+    }
+    .domain-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: transparent; }
+    .domain-card:hover::before { transform: scaleX(1); }
+    .domain-icon {
+      width: 52px; height: 52px;
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 16px;
+    }
+    .domain-name {
+      font-family: var(--font-display);
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .domain-desc {
+      font-size: 13.5px;
+      color: var(--ink-soft);
+      line-height: 1.65;
+      margin-bottom: 16px;
+    }
+    .domain-samples { margin-bottom: 18px; }
+    .domain-sample {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 7px 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--ink-soft);
+    }
+    .domain-sample:last-child { border-bottom: none; }
+    .domain-sample::before { content: '→'; color: var(--accent); font-size: 12px; flex-shrink: 0; }
+    .domain-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 4px;
+    }
+    .domain-count {
+      font-size: 12px;
+      color: var(--ink-mute);
+    }
+    .view-btn {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: gap .2s;
+    }
+    .view-btn:hover { gap: 8px; }
+
+    /* ─── SERVICES ─── */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .service-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      padding: 28px 24px;
+      transition: all .25s;
+    }
+    .service-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
+    .service-icon {
+      font-size: 28px;
+      margin-bottom: 14px;
+    }
+    .service-name {
+      font-family: var(--font-display);
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 8px;
+    }
+    .service-desc {
+      font-size: 13.5px;
+      color: var(--ink-soft);
+      line-height: 1.65;
+      margin-bottom: 14px;
+    }
+    .service-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+
+    /* ─── WHY ME ─── */
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .why-list { display: flex; flex-direction: column; gap: 20px; }
+    .why-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+    .why-num {
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--accent);
+      background: var(--accent-lt);
+      width: 36px; height: 36px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .why-body strong { display: block; font-size: 15px; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+    .why-body p { font-size: 13.5px; color: var(--ink-soft); line-height: 1.65; }
+    .updates-card {
+      background: var(--primary);
+      border-radius: var(--r-lg);
+      padding: 36px;
+      color: var(--white);
+    }
+    .updates-title {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .update-item {
+      padding: 14px 0;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    .update-item:last-child { border-bottom: none; }
+    .update-item-date { font-size: 11px; font-weight: 600; letter-spacing: .08em; color: var(--accent); margin-bottom: 4px; }
+    .update-item-text { font-size: 13.5px; color: rgba(255,255,255,.75); line-height: 1.55; }
+
+    /* ─── CONTACT ─── */
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 380px 1fr;
+      gap: 56px;
+      align-items: start;
+    }
+    .contact-info { display: flex; flex-direction: column; gap: 16px; }
+    .contact-card {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 20px 22px;
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      transition: all .2s;
+      text-decoration: none;
+    }
+    .contact-card:hover { box-shadow: var(--shadow-md); transform: translateX(4px); }
+    .contact-icon {
+      width: 46px; height: 46px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .contact-label { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-mute); margin-bottom: 3px; }
+    .contact-value { font-size: 15px; font-weight: 500; color: var(--ink); }
+    .contact-form-wrap {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: var(--r-lg);
+      padding: 36px;
+    }
+    .form-title {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 6px;
+    }
+    .form-sub { font-size: 14px; color: var(--ink-mute); margin-bottom: 28px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 18px; }
+    .form-group label { font-size: 13px; font-weight: 500; color: var(--ink-soft); }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      font-family: var(--font-body);
+      font-size: 14px;
+      padding: 12px 16px;
+      border: 1.5px solid var(--border);
+      border-radius: var(--r);
+      background: var(--canvas);
+      color: var(--ink);
+      outline: none;
+      transition: border-color .2s;
+      resize: none;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus { border-color: var(--primary); background: var(--white); }
+    .form-success {
+      display: none;
+      background: #E8F5EE;
+      border: 1px solid #4CAF82;
+      color: #1A6B41;
+      padding: 14px 18px;
+      border-radius: var(--r);
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: 12px;
+    }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: var(--ink);
+      color: rgba(255,255,255,.6);
+      padding: 48px 0 32px;
+    }
+    .footer-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    .footer-brand p {
+      font-size: 13.5px;
+      line-height: 1.7;
+      margin-top: 12px;
+      color: rgba(255,255,255,.45);
+    }
+    .footer-logo {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--white);
+    }
+    .footer-logo span { color: var(--accent); }
+    .footer-col-title {
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.4);
+      margin-bottom: 16px;
+    }
+    .footer-links { display: flex; flex-direction: column; gap: 10px; }
+    .footer-links a {
+      font-size: 14px;
+      color: rgba(255,255,255,.6);
+      transition: color .2s;
+    }
+    .footer-links a:hover { color: var(--accent); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,.08);
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .footer-bottom p { font-size: 13px; }
+    .footer-social { display: flex; gap: 12px; }
+    .social-btn {
+      width: 38px; height: 38px;
+      border-radius: 10px;
+      background: rgba(255,255,255,.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgba(255,255,255,.6);
+      font-size: 16px;
+      transition: all .2s;
+    }
+    .social-btn:hover { background: var(--accent); color: var(--white); }
+
+    /* ─── SCROLL REVEAL ─── */
+    .reveal { opacity: 0; transform: translateY(28px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 960px) {
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero-card { display: none; }
+      .about-grid { grid-template-columns: 1fr; }
+      .about-image-wrap { display: none; }
+      .why-grid { grid-template-columns: 1fr; }
+      .contact-grid { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr 1fr; }
+      .nav-links { display: none; }
+      .nav-cta { display: none; }
+      .hamburger { display: flex; }
+    }
+    @media (max-width: 640px) {
+      .section { padding: 64px 0; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-inner { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .hero-btns { flex-direction: column; }
+      .hero-btns .btn { width: 100%; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ─── NAV ─── -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">Ameraha<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#domains">Portfolio</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why">Why Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-accent nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#home" onclick="closeMobile()">Home</a>
+      <a href="#about" onclick="closeMobile()">About</a>
+      <a href="#domains" onclick="closeMobile()">Portfolio</a>
+      <a href="#services" onclick="closeMobile()">Services</a>
+      <a href="#why" onclick="closeMobile()">Why Me</a>
+      <a href="#contact" onclick="closeMobile()">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section id="home">
+  <div class="hero-bg"></div>
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <div class="hero-eyebrow">Content Manager at NetForce LLC</div>
+        <h1 class="hero-name">Ameraha<br>Bint E <em>Ishfaq</em></h1>
+        <p class="hero-title">AI-Driven SEO Content Manager & Business Strategist</p>
+        <p class="hero-desc">Building content systems that rank on Google, get cited by AI, and move real people toward real decisions — since 2019.</p>
+        <div class="hero-badges">
+          <span class="hero-badge">E-E-A-T Content</span>
+          <span class="hero-badge">Topical Authority</span>
+          <span class="hero-badge">Semantic SEO</span>
+          <span class="hero-badge">AEO / GEO / LLMO</span>
+          <span class="hero-badge">Full-Funnel Strategy</span>
+        </div>
+        <div class="hero-btns">
+          <a href="#domains" class="btn btn-accent">View My Portfolio</a>
+          <a href="#contact" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.3)">Let's Talk</a>
+        </div>
+        <div class="hero-available">
+          <div class="pulse"></div>
+          Available for new projects
+        </div>
+      </div>
+      <div class="hero-card">
+        <p class="hero-card-title">By the numbers</p>
+        <div class="stat-item">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Years of professional freelance writing</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-num">10</div>
+          <div class="stat-label">Industry domains covered</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-num">100%</div>
+          <div class="stat-label">Human-written, EEAT-verified content</div>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <div class="stat-num">4</div>
+          <div class="stat-label">AI search frameworks: AEO · GEO · LLMO · AIO</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ABOUT ─── -->
+<section id="about" class="section section-alt">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-wrap reveal">
+        <div class="about-image-placeholder">
+          <svg width="64" height="64" fill="none" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4" stroke="white" stroke-width="1.5"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
+          <span>Replace with your professional photo<br><small>Recommended: 600×750px</small></span>
+        </div>
+        <div class="about-image-badge">
+          <strong>2019</strong>
+          <span>Started freelancing</span>
+        </div>
+      </div>
+      <div class="about-body reveal">
+        <p class="eyebrow">About Me</p>
+        <h2 class="section-title">From freelancer to<br>content systems builder</h2>
+        <p class="about-bio">I started writing professionally in 2019 and built my career one brief, one blog post, and one satisfied client at a time. What started as freelance content writing evolved into a full-fledged expertise in AI-driven SEO strategy, content architecture, and business storytelling.</p>
+        <p class="about-bio">Today, as Content Manager at <strong>NetForce LLC</strong>, I build content systems — not just articles. Every piece I produce is structured around E-E-A-T principles, topical authority, semantic SEO, and full AI search visibility, so it ranks on traditional search and gets cited inside ChatGPT, Perplexity, and Google AI Overviews.</p>
+        <div class="about-facts">
+          <div class="about-fact">
+            <div class="fact-icon">🎓</div>
+            <div class="fact-text">
+              <strong>Education</strong>
+              <span>COMSATS University Islamabad</span>
+            </div>
+          </div>
+          <div class="about-fact">
+            <div class="fact-icon">💼</div>
+            <div class="fact-text">
+              <strong>Current Role</strong>
+              <span>Content Manager — NetForce LLC</span>
+            </div>
+          </div>
+          <div class="about-fact">
+            <div class="fact-icon">📍</div>
+            <div class="fact-text">
+              <strong>Location</strong>
+              <span>Lahore, Punjab, Pakistan</span>
+            </div>
+          </div>
+          <div class="about-fact">
+            <div class="fact-icon">🌐</div>
+            <div class="fact-text">
+              <strong>Availability</strong>
+              <span>US & UK business hours · Remote worldwide</span>
+            </div>
+          </div>
+        </div>
+        <p class="eyebrow" style="margin-bottom:10px">Core skills</p>
+        <div class="skill-pills">
+          <span class="tag">E-E-A-T Content</span>
+          <span class="tag">Topical Authority</span>
+          <span class="tag tag-teal">Semantic SEO</span>
+          <span class="tag tag-teal">AEO Writing</span>
+          <span class="tag tag-blue">GEO Optimization</span>
+          <span class="tag tag-blue">LLMO</span>
+          <span class="tag">TOFU / MOFU / BOFU</span>
+          <span class="tag tag-teal">Content Strategy</span>
+          <span class="tag tag-blue">WordPress</span>
+          <span class="tag">Content Management</span>
+          <span class="tag tag-teal">Business Writing</span>
+          <span class="tag tag-blue">AI-Driven Strategy</span>
+        </div>
+        <div style="margin-top:28px">
+          <a href="https://www.linkedin.com/in/amerha-ashfaq" target="_blank" rel="noopener" class="btn btn-primary">Connect on LinkedIn →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── DOMAINS ─── -->
+<section id="domains" class="section">
+  <div class="container">
+    <div class="domain-intro reveal">
+      <p class="eyebrow">Portfolio Domains</p>
+      <h2 class="section-title">10 industries.<br>One consistent standard.</h2>
+      <p class="section-lead">Every domain below represents years of writing, research, and audience understanding — not generic content, but niche-specific authority built piece by piece.</p>
+    </div>
+
+    <div class="domains-grid">
+
+      <div class="domain-card reveal" style="--card-accent:#E53935">
+        <div class="domain-icon" style="background:#FFEBEE">🏥</div>
+        <h3 class="domain-name">Medical & Healthcare</h3>
+        <p class="domain-desc">Patient-first healthcare content built on E-E-A-T principles. Clinical accuracy, YMYL compliance, and readability for both patients and professionals.</p>
+        <div class="domain-samples">
+          <div class="domain-sample">Patient Education Articles & Condition Guides</div>
+          <div class="domain-sample">Healthcare Provider Service Pages</div>
+          <div class="domain-sample">Health & Wellness Long-Form Blogs</div>
+        </div>
+        <div class="domain-footer">
+          <span class="domain-count"><span class="tag" style="font-size:10px">YMYL Compliant</span></span>
+          <span class="view-btn">View samples →</span>
+        </div>
+      </div>
+
+      <div class="domain-card reveal" style="--card-accent:#1E88E5">
+        <div class="domain-icon" style="background:#E3F2FD">💻</div>
+        <h3 class="domain-name">SaaS & Software</h3>
+        <p class="domain-desc">B2B SaaS content that speaks to buyers at every funnel stage — from awareness blogs to high-converting product landing pages and feature docs.</p>
+        <div class="domain-samples">
+          <div class="domain-sample">Product Feature Blogs & Comparison Guides</div>
+          <div class="domain-sample">B2B SaaS Landing Pages (BOFU)</div>
+          <div class="domain-sample">Software Review & Buyer's Guide Content</div>
+        </div>
+        <div class="domain-footer">
+          <span class="tag tag-blue" style="font-size:10px">TOFU → BOFU</span>
+          <span class="view-btn">View samples →</span>
+        </div>
+      </div>
+
+      <div class="domain-card reveal" style="--card-accent:#F4511E">
+        <div class="domain-icon" style="background:#FBE9E7">🛍️</div>
+        <h3 class="domain-name">E-Commerce</h3>
+        <p class="domain-desc">Product-led content that converts browsers into buyers — from SEO-optimized product descriptions to category pages and shopping guides.</p>
+        <div class="domain-samples">
+          <div class="domain-sample">SEO Product Descriptions at Scale</div>
+          <div class="domain-sample">Category Page Copy & Buying Guides</div>
+          <div class="domain-sample">Customer Journey Content (Awareness → Purchase)</div>
+        </div>
+        <div class="domain-footer">
+          <span class="tag" style="background:#FBE9E7;color:#BF360C;font-size:10px">Conversion-Focused</span>
+          <span class="view-btn">View samples →</span>
+        </div>
+      </div>
+
+      <div class="domain-card reveal" style="--card-accent:#00897B">
+        <div class="domain-icon" style="background:#E0F2F1">⚙️</div>
+        <h3 class="domain-name">Technology & IT</h3>
+        <p class="domain-desc">Technical content made human — IT solutions, digital transformation, software reviews, and tech news for both specialist and general audiences.</p>
+        <div class="domain-samples">
+          <div class="domain-sample">Tech Explainers & Digital Transformation Pieces</div>
+          <div class="domain-sample">IT Solutions & Software Review Content</div>
+          <div class="domain-sample">Developer-Facing & Non-Technical Dual Content</div>
+        </div>
+        <div class="domain-footer">
+          <span class="tag tag-teal" style="font-size:10px">Technical Accuracy</span>
+          <span class="view-btn">View samples →</span>
+        </div>
+      </div>
+
+      <div class="domain-card reveal" style="--card-accent:#C4962A">
+        <div class="domain-icon" style="background:#FFF8E1">📊</div>
+        <h3 class="domain-name">Business & Finance</h3>
+        <p class="domain-desc">Corporate content, financial articles, and market analysis written with authority — YMYL-compliant, credibly sourced, and tailored for business decision-makers.</p>
+        <div class="domain-samples">
+          <div class="domain-sample">Financial Strategy Articles & Market Analysis</div>
+          <div class="domain-sample">Corporate Blog Content & Thought Leadership</div>
+          <div class="domain-sample">Business Growth Guides & Case Studies</div>
+        </div>
+        <div class="domain-footer">
+          <span class="tag" style="font-size:10px">YMYL Compliant</span>
+          <span class="view-btn">View samples →</span>
+        </div>
+      </div>
+
+      <div class="domain-card reveal" style="--card-accent:#43A047">
+        <div class="domain-icon" style="background:#E8F5E9">🌿</div>
+        <h3 class="domain-name">Health & Wellness</h3>
+        <p class="domain-desc">Experience-led wellness content that balances evidence-based accuracy with engaging, accessible writing for fitness, nutrition, mental health, and lifestyle audiences.</p>
+        <div class="domain-samples">
+          <div class="domain-sample">Fitness & Nutrition Guides (Research-Backed)</div>
+          <div class="domain-sample">Mental Health & Mindfulness Articles</div>
+          <div class="domain-sample">Lifestyle & Holistic Wellness Content</div>
+        </div>
+        <div class="domain-footer">
+          <span class="tag tag-teal" style="font-size:10px">E-E-A-T Focused</span>
+          <span class="view-btn">View samples →</span>
+        </div>
+      </div>
+
+      <div class="domain-card reveal" style="--card-accent:#5E35B1">
+        <div class="domain-icon" style="background:#EDE7F6">📚</div>
+        <h3 class="domain-name">Education & E-Learning</h3>
+        <p class="domain-desc">Pedagogically sound content for learning platforms, course creators, and educational institutions — structured for comprehension, retention, and SEO.</p>
+        <div class="domain-samples">
+          <div class="domain-sample">Online Course Descriptions & Module Content</div>
+          <div class="domain-sample">E-Learning Platform SEO Blog Posts</div>
+          <div class="domain-sample">Academic & Student-Facing Content</div>
+        </div>
+        <div class="domain-footer">
+          <span class="tag tag-blue" style="font-size:10px">Pedagogically Structured</span>
+          <span class="view-btn">View samples →</span>
+        </div>
+      </div>
+
+      <div class="domain-card reveal" style="--card-accent:#D81B60">
+        <div class="domain-icon" style="background:#FCE4EC">📣</div>
+        <h3 class="domain-name">Digital Marketing</h3>
+        <p class="domain-desc">Marketing content that markets itself — SEO strategy guides, social media playbooks, email copy, and advertising content built to rank and convert.</p>
+        <div class="domain-samples">
+          <div class="domain-sample">SEO Strategy Guides & Marketing Playbooks</div>
+          <div class="domain-sample">Email Sequence & Nurture Copy (MOFU)</div>
+          <div class="domain-sample">Social Media & Content Marketing Articles</div>
+        </div>
+        <div class="domain-footer">
+          <span class="tag" style="background:#FCE4EC;color:#880E4F;font-size:10px">Conversion Copy</span>
+          <span class="view-btn">View samples →</span>
+        </div>
+      </div>
+
+      <div class="domain-card reveal" style="--card-accent:#F57C00">
+        <div class="domain-icon" style="background:#FFF3E0">🚀</div>
+        <h3 class="domain-name">Startups & Entrepreneurship</h3>
+        <p class="domain-desc">Founder-voice content for early-stage companies — origin stories, investor-facing narratives, growth content, and startup ecosystem thought leadership.</p>
+        <div class="domain-samples">
+          <div class="domain-sample">Startup Founding Stories & Brand Narratives</div>
+          <div class="domain-sample">Entrepreneur Guides & Innovation Content</div>
+          <div class="domain-sample">Growth Strategy & Scaling Content</div>
+        </div>
+        <div class="domain-footer">
+          <span class="tag" style="background:#FFF3E0;color:#E65100;font-size:10px">Founder Voice</span>
+          <span class="view-btn">View samples →</span>
+        </div>
+      </div>
+
+      <div class="domain-card reveal" style="--card-accent:#0097A7">
+        <div class="domain-icon" style="background:#E0F7FA">✈️</div>
+        <h3 class="domain-name">Lifestyle & Travel</h3>
+        <p class="domain-desc">Evocative, search-optimized travel and lifestyle content — destination guides, cultural pieces, and experience-driven writing that ranks and inspires.</p>
+        <div class="domain-samples">
+          <div class="domain-sample">Destination Guides & City Travel Content</div>
+          <div class="domain-sample">Culture, Food & Local Experience Articles</div>
+          <div class="domain-sample">Lifestyle & Personal Development Pieces</div>
+        </div>
+        <div class="domain-footer">
+          <span class="tag tag-teal" style="font-size:10px">Experience-Led</span>
+          <span class="view-btn">View samples →</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── SERVICES ─── -->
+<section id="services" class="section section-alt">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:48px">
+      <p class="eyebrow">What I Offer</p>
+      <h2 class="section-title">Services</h2>
+      <p class="section-lead">Every service is built around 2026 content standards — E-E-A-T, topical authority, and AI search visibility baked in from the first word.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon">✍️</div>
+        <h3 class="service-name">SEO Content Writing</h3>
+        <p class="service-desc">Long-form articles, blog posts, and guides built around search intent, semantic SEO, and topical authority architecture.</p>
+        <div class="service-tags"><span class="tag" style="font-size:11px">TOFU / MOFU / BOFU</span><span class="tag tag-teal" style="font-size:11px">Semantic SEO</span></div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🏛️</div>
+        <h3 class="service-name">Topical Authority Systems</h3>
+        <p class="service-desc">Pillar page + content cluster architecture that tells Google your site owns a topic — full internal linking strategy included.</p>
+        <div class="service-tags"><span class="tag" style="font-size:11px">Pillar Pages</span><span class="tag tag-blue" style="font-size:11px">Content Clusters</span></div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🤖</div>
+        <h3 class="service-name">AEO / GEO / LLMO Writing</h3>
+        <p class="service-desc">Content structured to appear in Google AI Overviews, ChatGPT, Perplexity, and Gemini citations — not just page one rankings.</p>
+        <div class="service-tags"><span class="tag tag-teal" style="font-size:11px">AEO</span><span class="tag tag-blue" style="font-size:11px">GEO</span><span class="tag" style="font-size:11px">LLMO</span></div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🔄</div>
+        <h3 class="service-name">Content Refresh & Audit</h3>
+        <p class="service-desc">Reviving existing content — updating search intent alignment, adding semantic terms, improving EEAT signals, and restoring AI citation eligibility.</p>
+        <div class="service-tags"><span class="tag" style="font-size:11px">EEAT</span><span class="tag tag-teal" style="font-size:11px">Rankings Recovery</span></div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">📄</div>
+        <h3 class="service-name">Landing Page Copywriting</h3>
+        <p class="service-desc">Conversion-optimized service and product pages that rank for transactional intent and convert visitors into leads or customers.</p>
+        <div class="service-tags"><span class="tag tag-blue" style="font-size:11px">BOFU</span><span class="tag" style="font-size:11px">Conversion Copy</span></div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">📋</div>
+        <h3 class="service-name">Content Strategy & Briefs</h3>
+        <p class="service-desc">End-to-end content strategy — keyword mapping, content gap analysis, editorial calendars, and detailed briefs your team can execute against.</p>
+        <div class="service-tags"><span class="tag tag-teal" style="font-size:11px">Strategy</span><span class="tag" style="font-size:11px">Content Briefs</span></div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">🗂️</div>
+        <h3 class="service-name">Content Management</h3>
+        <p class="service-desc">Full content lifecycle management — planning, writing, editing, publishing in WordPress, and performance tracking. End-to-end ownership.</p>
+        <div class="service-tags"><span class="tag tag-blue" style="font-size:11px">WordPress</span><span class="tag" style="font-size:11px">Editorial</span></div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-icon">✉️</div>
+        <h3 class="service-name">Email & Newsletter Writing</h3>
+        <p class="service-desc">Nurture sequences, campaign copy, and newsletters written with MOFU intent — moving subscribers from aware to ready-to-buy.</p>
+        <div class="service-tags"><span class="tag" style="font-size:11px">MOFU</span><span class="tag tag-teal" style="font-size:11px">Email Copy</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── WHY ME ─── -->
+<section id="why" class="section">
+  <div class="container">
+    <div class="why-grid">
+      <div>
+        <p class="eyebrow">Why Work With Me</p>
+        <h2 class="section-title" style="margin-bottom:36px">Content built for<br>2026 Google — not 2020.</h2>
+        <div class="why-list">
+          <div class="why-item reveal">
+            <div class="why-num">01</div>
+            <div class="why-body">
+              <strong>100% Human-Written, E-E-A-T Verified</strong>
+              <p>Google's 2025 Helpful Content updates penalized AI-generated content at scale. Every piece I write is human-authored with cited sources, experience signals, and factual depth that algorithms reward and readers trust.</p>
+            </div>
+          </div>
+          <div class="why-item reveal">
+            <div class="why-num">02</div>
+            <div class="why-body">
+              <strong>Full-Funnel Thinking, Not Just Blog Posts</strong>
+              <p>I map every piece of content to a funnel stage and search intent type — TOFU awareness, MOFU consideration, or BOFU conversion. You get content that does a job, not content that fills a calendar.</p>
+            </div>
+          </div>
+          <div class="why-item reveal">
+            <div class="why-num">03</div>
+            <div class="why-body">
+              <strong>Optimized for AI Search, Not Just Google Rankings</strong>
+              <p>AI Overviews now trigger on ~48% of all Google queries. I write with AEO, GEO, and LLMO structure so your content gets cited inside ChatGPT, Perplexity, and Gemini — not just ranked on page one.</p>
+            </div>
+          </div>
+          <div class="why-item reveal">
+            <div class="why-num">04</div>
+            <div class="why-body">
+              <strong>10 Domains, One Standard of Quality</strong>
+              <p>From YMYL healthcare content to SaaS product copy to lifestyle travel guides — I write with niche authority in every domain. Each field has its own voice, audience, and standards, and I know how to navigate all of them.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="updates-card">
+          <p class="updates-title">2026 Google Updates I Write For</p>
+          <div class="update-item">
+            <p class="update-item-date">MAY 2026 · CORE UPDATE</p>
+            <p class="update-item-text">AI content without human oversight penalized. Author verification now a direct ranking signal. My content always includes real authorship signals.</p>
+          </div>
+          <div class="update-item">
+            <p class="update-item-date">MARCH 2026 · CORE UPDATE</p>
+            <p class="update-item-text">YMYL sites hit hardest. Health, finance, and legal content must demonstrate demonstrated subject authority. I write YMYL-compliant across healthcare and finance domains.</p>
+          </div>
+          <div class="update-item">
+            <p class="update-item-date">2025–2026 · AI OVERVIEWS</p>
+            <p class="update-item-text">Google AI Overviews now trigger on ~48% of queries. I structure every article for AEO citation — direct definitions, Q&A formatting, extractable answer units.</p>
+          </div>
+          <div class="update-item">
+            <p class="update-item-date">2025 · HELPFUL CONTENT</p>
+            <p class="update-item-text">Mass AI content farms lost 50–90% of traffic. Human-written, experience-led content is the only durable ranking strategy. That's all I write.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CONTACT ─── -->
+<section id="contact" class="section section-alt">
+  <div class="container">
+    <div class="reveal" style="margin-bottom:48px">
+      <p class="eyebrow">Get In Touch</p>
+      <h2 class="section-title">Let's work together</h2>
+      <p class="section-lead">Have a content project, a strategy question, or want to discuss a retainer? Reach out through any channel below or fill in the form.</p>
+    </div>
+    <div class="contact-grid">
+      <div>
+        <div class="contact-info reveal">
+          <a href="mailto:ameraha.ishfaq@gmail.com" class="contact-card">
+            <div class="contact-icon" style="background:#FFF3E0">📧</div>
+            <div>
+              <p class="contact-label">Email</p>
+              <p class="contact-value">ameraha.ishfaq@gmail.com</p>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/amerha-ashfaq" target="_blank" rel="noopener" class="contact-card">
+            <div class="contact-icon" style="background:#E3F2FD">🔗</div>
+            <div>
+              <p class="contact-label">LinkedIn</p>
+              <p class="contact-value">Connect with Ameraha</p>
+            </div>
+          </a>
+          <a href="tel:+92XXXXXXXXXX" class="contact-card">
+            <div class="contact-icon" style="background:#E8F5E9">📞</div>
+            <div>
+              <p class="contact-label">Phone / WhatsApp</p>
+              <p class="contact-value">+92-XXX-XXXXXXX</p>
+            </div>
+          </a>
+          <div class="contact-card" style="cursor:default">
+            <div class="contact-icon" style="background:#EDE7F6">📍</div>
+            <div>
+              <p class="contact-label">Location</p>
+              <p class="contact-value">Lahore, Punjab, Pakistan</p>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:24px;padding:20px 22px;background:var(--accent-lt);border-radius:var(--r);border:1px solid rgba(196,150,42,.2)" class="reveal">
+          <p style="font-size:13px;font-weight:600;color:var(--accent);margin-bottom:6px">⚡ Fast response guaranteed</p>
+          <p style="font-size:13px;color:var(--ink-soft)">I reply to all messages within 24 hours. For urgent projects, mention it in your message and I'll prioritize accordingly.</p>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal">
+        <h3 class="form-title">Send a message</h3>
+        <p class="form-sub">Tell me about your project and I'll get back to you with thoughts and next steps.</p>
+        <form id="contact-form" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First name</label>
+              <input type="text" id="fname" name="fname" placeholder="Your first name" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last name</label>
+              <input type="text" id="lname" name="lname" placeholder="Your last name" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required />
+          </div>
+          <div class="form-group">
+            <label for="service">Service interested in</label>
+            <select id="service" name="service">
+              <option value="">Select a service…</option>
+              <option>SEO Content Writing</option>
+              <option>Topical Authority System</option>
+              <option>AEO / GEO / LLMO Content</option>
+              <option>Content Refresh & Audit</option>
+              <option>Landing Page Copywriting</option>
+              <option>Content Strategy</option>
+              <option>Content Management</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project — niche, goals, content volume, timeline…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">Send Message →</button>
+          <div class="form-success" id="form-success">
+            ✅ Message received! I'll get back to you within 24 hours.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Ameraha<span>.</span></div>
+        <p>AI-Driven SEO Content Manager & Business Strategist. Building content systems that rank, cite, and convert — since 2019.</p>
+        <div style="margin-top:16px;display:flex;flex-wrap:wrap;gap:6px">
+          <span class="tag" style="font-size:10px">E-E-A-T</span>
+          <span class="tag tag-teal" style="font-size:10px">Topical Authority</span>
+          <span class="tag tag-blue" style="font-size:10px">AEO · GEO · LLMO</span>
+        </div>
+      </div>
+      <div>
+        <p class="footer-col-title">Portfolio Domains</p>
+        <div class="footer-links">
+          <a href="#domains">Medical & Healthcare</a>
+          <a href="#domains">SaaS & Software</a>
+          <a href="#domains">E-Commerce</a>
+          <a href="#domains">Technology & IT</a>
+          <a href="#domains">Business & Finance</a>
+          <a href="#domains">Health & Wellness</a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-col-title">More Domains & Links</p>
+        <div class="footer-links">
+          <a href="#domains">Education & E-Learning</a>
+          <a href="#domains">Digital Marketing</a>
+          <a href="#domains">Startups & Entrepreneurship</a>
+          <a href="#domains">Lifestyle & Travel</a>
+          <a href="#services">Services</a>
+          <a href="https://www.linkedin.com/in/amerha-ashfaq" target="_blank" rel="noopener">LinkedIn Profile</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2024 Ameraha Bint E Ishfaq · Built with ❤️ in Lahore, Pakistan</p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/amerha-ashfaq" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn" title="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+        </a>
+        <a href="mailto:ameraha.ishfaq@gmail.com" class="social-btn" aria-label="Email" title="Email">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Nav scroll
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  // Mobile menu
+  const hamburger = document.getElementById('hamburger');
+  const mobileMenu = document.getElementById('mobile-menu');
+  hamburger.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+  });
+  function closeMobile() { mobileMenu.classList.remove('open'); }
+
+  // Scroll reveal
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 60);
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+  reveals.forEach(el => observer.observe(el));
+
+  // Contact form
+  document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const fname = document.getElementById('fname').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+    if (!fname || !email || !message) {
+      alert('Please fill in your name, email, and message.');
+      return;
+    }
+    const btn = this.querySelector('button[type="submit"]');
+    btn.textContent = 'Sending…';
+    btn.disabled = true;
+    setTimeout(() => {
+      document.getElementById('form-success').style.display = 'block';
+      btn.textContent = 'Message Sent ✓';
+      btn.style.background = '#4CAF82';
+      this.reset();
+    }, 900);
+  });
+
+  // Smooth active nav on scroll
+  const sections = document.querySelectorAll('section[id]');
+  const navAs = document.querySelectorAll('.nav-links a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 100) current = s.id; });
+    navAs.forEach(a => {
+      a.style.color = a.getAttribute('href') === '#' + current ? 'var(--primary)' : '';
+      a.style.fontWeight = a.getAttribute('href') === '#' + current ? '600' : '';
+    });
+  });
+</script>
+
+</body>
+</html>
